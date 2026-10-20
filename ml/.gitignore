@@ -1,0 +1,55 @@
+# Python bytecode and interpreter caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and local environment files
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter and tool caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local datasets and captured camera frames
+data/
+raw/
+train_data/
+camo_eval/
+camo_test/
+captures/
+
+# Model checkpoints and downloaded weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# Training runs and generated evaluation output
+runs/
+results/
+results_*/
+
+# Logs and temporary files
+*.log
+*.err
+*.tmp
+*.temp
+tmp/
+temp/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
